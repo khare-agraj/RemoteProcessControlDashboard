@@ -1,11 +1,15 @@
 .sidenav {
-  height: 90%;
+  border: 2px solid rgb(29, 214, 214);
+  border-radius: 8px;
+  box-shadow: 10px 10px 5px rgb(29, 214, 214);
+  padding: 5px 5px 5px 10px;
+  height: 810px;
   width: 300px;
   position: fixed;
   z-index: 1;
   bottom: 0;
   left: 0;
-  background-color: rgb(139, 134, 134);
+  background-color: rgb(6, 20, 59);
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -14,7 +18,7 @@
   padding: 6px 6px 6px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #7ad8cb;
+  color: #fffafa;
   display: block;
 }
 
@@ -23,35 +27,39 @@
 }
 
 .topnav {
-  background-color: #333;
+  border: 2px solid rgb(29, 214, 214);
+  border-radius: 8px;
+  box-shadow: 10px 10px 5px rgb(29, 214, 214);
+  padding: 5px 5px 5px 10px;
+  background-color: rgb(6, 20, 59);
   overflow: hidden;
   position: fixed;
   top: 0;
   right: 0;
-  width: 1500px;
+  width: 1520px;
+  height: 82px;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: right;
-  color: #f2f2f2;
+  float: left;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 25px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  color: rgb(41, 68, 219);
 }
 
 .logo {
   position: absolute;
   width: 100px;
   height: 100px;
-  top: 0;
-  left: 0;
-  float: left;
+  top: 15px;
+  left: 46px;
+  vertical-align: center;
 }
